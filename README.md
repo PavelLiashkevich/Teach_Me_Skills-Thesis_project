@@ -6,7 +6,7 @@
 My app is an experimental online store.
 The repository includes a project using HTML, CSS, JavaScript, React and Redux.
 
-## Check it out ;-) ##
+## Check it out :) ##
 [Thesis Project by Pavel Liashkevich](https://449345ee.teach-me-skills-thesis-project-my-shop.pages.dev)
 
 <div align="center">
