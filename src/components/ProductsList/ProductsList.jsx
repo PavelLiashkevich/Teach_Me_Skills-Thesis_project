@@ -13,6 +13,7 @@ export const ProductsList = () => {
 			.catch(err => {
 				console.log('Err: ', err);
 			});
+
 		dispatch(setProducts(response.data));
 	};
 

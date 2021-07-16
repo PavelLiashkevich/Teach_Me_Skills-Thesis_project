@@ -1,3 +1,2 @@
-# Teach Me Skills - Thesis project
+<h1 align="center">Teach Me Skills - My Shop(Thesis project)</h1>
 
-https://25e44b1e.teach-me-skills-thesis-project.pages.dev/

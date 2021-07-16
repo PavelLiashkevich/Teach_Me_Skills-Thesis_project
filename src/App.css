@@ -4,8 +4,39 @@
 	margin: 0;
 }
 
+body {
+	background-color: rgb(165, 152, 152);
+}
+
 h2 {
 	color: #fff;
+}
+
+.App {
+	background-color: rgb(165, 152, 152);
+}
+
+.icon-basket {
+	padding-left: 165px;
+	padding-bottom: 70px;
+	font-size: 31px;
+	color: white;
+}
+
+.fas {
+	padding-right: 150px;
+}
+
+.item-card {
+	border: 2px solid wheat;
+}
+
+.all-products {
+	padding-left: 40px;
+}
+
+.padding-text {
+	padding-left: 65px;
 }
 
 .ui.cards > .card > .image {
@@ -49,14 +80,16 @@ h2 {
 	height: 60px;
 	padding-top: 15px;
 	background-color: rgb(174, 135, 135);
+	position: relative;
+	padding-left: 65px;
 }
 
 .ui.grid.container {
-	margin-top: 45px;
+	margin-top: 10px;
 }
 
 .ui.grid > .row {
-	background: rgb(249, 244, 244);
+	background: #fff;
 }
 
 .ui.grid > .row > .column.lp {
@@ -104,4 +137,84 @@ h2 {
 	color: #fff;
 	font-size: 18px;
 	margin-left: 0;
+}
+
+.count {
+	font-size: 25px;
+	color: #fc5a5a;
+	padding-bottom: 15px;
+}
+
+.container-product {
+	padding-top: 30px;
+}
+
+.product-item {
+	width: 290px;
+	text-align: center;
+	margin: 0 auto;
+	background: white;
+	font-family: 'Open Sans';
+	transition: 0.3s ease-in;
+}
+
+.product-item:hover {
+	border-bottom: 2px solid #fc5a5a;
+}
+
+.product-item img {
+	display: block;
+	width: 100%;
+}
+
+.product-list {
+	background: #fafafa;
+	padding: 15px 0;
+}
+
+.product-list h3 {
+	font-size: 27px;
+	font-weight: 400;
+	color: #444444;
+	margin: 0 0 10px 0;
+}
+
+.price {
+	font-size: 20px;
+	color: #fc5a5a;
+	display: block;
+	margin-bottom: 12px;
+}
+
+.category {
+	font-size: 16px;
+}
+
+.fa-shopping-basket:before {
+	color: white;
+}
+
+.gradient-button {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	padding: 9px 18px;
+	margin: 10px 20px;
+	border-radius: 7px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-image: linear-gradient(
+		to right,
+		rgb(165, 152, 152) 0%,
+		#fc5a5a 51%,
+		#fc5a5a 100%
+	);
+	background-size: 200% auto;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	transition: 0.5s;
+}
+
+.gradient-button:hover {
+	background-position: right center;
 }

@@ -17,6 +17,7 @@ export const ProductInfo = () => {
 		const response = await axios
 			.get(`https://fakestoreapi.com/products/${id}`)
 			.catch(err => console.log('Err:', err));
+
 		dispatch(selectedProduct(response.data));
 	};
 
@@ -30,7 +31,7 @@ export const ProductInfo = () => {
 	return (
 		<div className='ui grid container'>
 			{Object.keys(product).length === 0 ? (
-				<div>...Loading</div>
+				<button className='ui loading huge button'>Загрузка</button>
 			) : (
 				<div className='ui placeholder segment'>
 					<div className='ui two column stackable center aligned grid'>
@@ -46,12 +47,6 @@ export const ProductInfo = () => {
 								</h2>
 								<h3 className='ui brown block header'>{category}</h3>
 								<p>{description}</p>
-								<div className='ui vertical animated button' tabIndex='0'>
-									<div className='hidden content'>
-										<i className='shop icon'></i>
-									</div>
-									<div className='visible content'>Add to Cart</div>
-								</div>
 							</div>
 						</div>
 					</div>
