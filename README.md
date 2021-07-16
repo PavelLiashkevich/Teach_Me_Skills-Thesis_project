@@ -1,5 +1,5 @@
 <h1 align="center">Teach Me Skills - My Shop(Thesis project)</h1>
 
-[Thesis project.pdf](https://github.com/PavelLiashkevich/Teach_Me_Skills-Thesis_project/files/6833586/Thesis.project.pdf)]
+![Screen Shot 2021-07-17 at 01 12 25](https://user-images.githubusercontent.com/75558987/126013329-a5659460-789b-4638-b240-f3291c8d4a5c.png)
 
 https://449345ee.teach-me-skills-thesis-project-my-shop.pages.dev
