@@ -218,3 +218,28 @@ h2 {
 .gradient-button:hover {
 	background-position: right center;
 }
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.button-order {
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	padding: 0.8em 1em calc(0.8em + 3px);
+	border-radius: 3px;
+	background: #fc5a5a;
+	box-shadow: 0 -3px #fc5a5a inset;
+	transition: 0.2s;
+}
+
+.button-order:hover {
+	background: #fc5a5a;
+}
+.button-order:active {
+	background: #fc5a5a;
+	box-shadow: 0 3px #fc5a5a inset;
+}

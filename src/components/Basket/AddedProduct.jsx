@@ -21,10 +21,10 @@ export const AddedProduct = ({ image, title, price, category }) => {
 					<p className='category'>{category}</p>
 					<h4 className='count'>{count}</h4>
 					<div className='counter'>
-						<button class='gradient-button' onClick={inc}>
+						<button className='gradient-button' onClick={inc}>
 							+
 						</button>
-						<button class='gradient-button' onClick={reset}>
+						<button className='gradient-button' onClick={reset}>
 							reset
 						</button>
 					</div>
