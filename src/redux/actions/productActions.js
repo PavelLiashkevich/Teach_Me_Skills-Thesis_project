@@ -26,3 +26,9 @@ export const addProductToBasket = payload => {
 		payload,
 	};
 };
+
+export const clearBasket = () => {
+	return {
+		type: ActionTypes.CLEAR_BASKET,
+	};
+};
