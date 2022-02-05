@@ -145,12 +145,17 @@ h2 {
 	padding-bottom: 15px;
 }
 
+.container {
+	display: flex;
+}
+
 .container-product {
 	padding-top: 30px;
+	margin: 0 auto;
 }
 
 .product-item {
-	width: 290px;
+	width: 70%;
 	text-align: center;
 	margin: 0 auto;
 	background: white;

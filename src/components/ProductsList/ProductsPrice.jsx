@@ -10,7 +10,7 @@ export const ProductsPrice = () => {
 
 		return (
 			<Product
-				id={id}
+				key={id}
 				title={title}
 				image={image}
 				price={price}
